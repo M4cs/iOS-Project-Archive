@@ -1,0 +1,9 @@
+Package: com.auxilium.toggleanywhere
+Name: ToggleAnywhere
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Macs
+Author: Macs
+Section: Tweaks

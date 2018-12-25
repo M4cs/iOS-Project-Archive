@@ -1,0 +1,10 @@
+Package: com.auxiliumdev.fearm
+Name: feaRM
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Clarke1234
+Author: Clarke1234
+Section: Tweaks
+Version: 0.0.1-1+debug
+Installed-Size: 117

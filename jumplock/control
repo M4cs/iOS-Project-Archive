@@ -1,0 +1,9 @@
+Package: com.macs.nestedfolders11
+Name: NestedFolders11
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Allow Nested Folders on iOS 11!
+Maintainer: Macs
+Author: Macs
+Section: Tweaks

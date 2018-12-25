@@ -1,0 +1,10 @@
+Package: com.macs.prettyvid
+Name: PrettyVid
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Macs
+Author: Macs
+Section: Tweaks
+Version: 0.0.1-10+debug
+Installed-Size: 117

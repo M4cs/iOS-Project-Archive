@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>HBPackageNameHeaderCell</string>
+			<key>packageIdentifier</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>showVersion</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+			<key>icon</key>
+			<string>powerToggle.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Options</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Airplane Mode Options</string>
+			<key>detail</key>
+			<string>PickPocketAirplaneModeListController</string>
+			<key>icon</key>
+			<string>airPlaneMode.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Automatic Shutdown Options</string>
+			<key>detail</key>
+			<string>PickPocketAutomaticShutdownListController</string>
+			<key>icon</key>
+			<string>autoOptions.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Hard Reset Options</string>
+			<key>detail</key>
+			<string>PickPocketHardResetListController</string>
+			<key>icon</key>
+			<string>hardReset.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>LS Information Options</string>
+			<key>detail</key>
+			<string>PickPocketLSInfoListController</string>
+			<key>icon</key>
+			<string>lockScreenOptions.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Remote Actions Options</string>
+			<key>detail</key>
+			<string>PickPocketRemoteActionsListController</string>
+			<key>icon</key>
+			<string>remoteOptions.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Shutdown Options</string>
+			<key>detail</key>
+			<string>PickPocketShutdownListController</string>
+			<key>icon</key>
+			<string>shutDownOptions.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>SIM Card Pulled Options</string>
+			<key>detail</key>
+			<string>PickPocketSIMListController</string>
+			<key>icon</key>
+			<string>simCardSettings.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Unlock Options</string>
+			<key>detail</key>
+			<string>PickPocketUnlockListController</string>
+			<key>icon</key>
+			<string>unlockOptions.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Password</string>
+			<key>footerText</key>
+			<string>Set a password to protect PickPocket’s preferences</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Password Options</string>
+			<key>detail</key>
+			<string>PickPocketPasswordListController</string>
+			<key>icon</key>
+			<string>passwordOptions.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Email/SMS</string>
+			<key>footerText</key>
+			<string>Configure Email and SMS options</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Email Options</string>
+			<key>detail</key>
+			<string>PickPocketMailListController</string>
+			<key>icon</key>
+			<string>emailOptions.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>SMS Options</string>
+			<key>detail</key>
+			<string>PickPocketSMSListController</string>
+			<key>icon</key>
+			<string>smsOptions.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+		    <key>cellClass</key>
+		    <string>HBTintedTableCell</string>
+			<key>label</key>
+			<string>Save Changes and Respring</string>
+			<key>action</key>
+			<string>respring</string>
+			<key>icon</key>
+			<string>respring.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>About</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>sendEmail</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+		    <key>cellClass</key>
+		    <string>HBTintedTableCell</string>
+			<key>label</key>
+			<string>Email Support</string>
+			<key>icon</key>
+			<string>normalMail.png</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+		    <key>cellClass</key>
+		    <string>HBTintedTableCell</string>
+			<key>label</key>
+			<string>Follow me on Twitter (@Ziph0n)</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>reddit</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+		    <key>cellClass</key>
+		    <string>HBTintedTableCell</string>
+			<key>label</key>
+			<string>Find me on Reddit (/u/Ziph0n)</string>
+			<key>icon</key>
+			<string>reddit.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>A big thanks to all my beta testers and my designers!</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Credits</string>
+			<key>detail</key>
+			<string>PickPocketCreditsListController</string>
+			<key>icon</key>
+			<string>credits.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Terms Of Use</string>
+			<key>detail</key>
+			<string>PickPocketTermsListController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>© 2015-2017 Ziph0n (@Ziph0n)</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>PickPocket</string>
+</dict>
+</plist>

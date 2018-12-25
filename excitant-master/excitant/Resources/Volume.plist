@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+					 <key>cell</key>
+					 <string>PSGroupCell</string>
+					 <key>footerText</key>
+					 <string>Volume Keys</string>
+			 </dict>
+<dict>
+	 <key>cell</key>
+	 <string>PSStaticTextCell</string>
+	 <key>cellClass</key>
+	 <string>PFHeaderCell</string>
+	 <key>background</key>
+	 <string>#EFEFF4</string>
+	 <key>icon</key>
+	 <string>banner.png</string>
+	 <key>alignment</key>
+	 <string>0</string>
+	 <key>height</key>
+	 <integer>165</integer>
+
+</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Free the Volume</string>
+		</dict>
+
+			<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>bundle</key>
+			<string>AppList</string>
+			<key>isController</key>
+			<string>1</string>
+			<key>label</key>
+			<string>Hold Volume Up</string>
+			<key>icon</key>
+			<string></string>
+			<key>ALSettingsKey</key>
+			<string>volUp</string>
+			<key>ALSettingsPath</key>
+			<string>/var/mobile/Library/Preferences/com.midnightchips.volume.plist</string>
+			<key>ALSingleEnabledMode</key>
+			<string>1</string>
+			<key>ALChangeNotification</key>
+			<string>com.midnightchips.volume.plist/ReloadPrefs</string>
+			<key>ALSectionDescriptors</key>
+			<array>
+			<dict>
+			<key>cell-class-name</key>
+			<string>ALSwitchCell</string>
+			<key>predicate</key>
+			<string>isSystemApplication = TRUE</string>
+			<key>icon-size</key>
+			<string>29</string>
+			<key>suppress-hidden-apps</key>
+			<string>1</string>
+			<key>title</key>
+			<string>System Applications</string>
+			</dict>
+			<dict>
+			<key>cell-class-name</key>
+			<string>ALSwitchCell</string>
+			<key>predicate</key>
+			<string>isSystemApplication = FALSE</string>
+			<key>icon-size</key>
+			<string>29</string>
+			<key>suppress-hidden-apps</key>
+			<string>1</string>
+			<key>title</key>
+			<string>User Applications</string>
+			</dict>
+			</array>
+			</dict>
+
+			<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>bundle</key>
+			<string>AppList</string>
+			<key>isController</key>
+			<string>1</string>
+			<key>label</key>
+			<string>Hold Volume Down</string>
+			<key>icon</key>
+			<string></string>
+			<key>ALSettingsKey</key>
+			<string>volDown</string>
+			<key>ALSettingsPath</key>
+			<string>/var/mobile/Library/Preferences/com.midnightchips.volume.plist</string>
+			<key>ALSingleEnabledMode</key>
+			<string>1</string>
+			<key>ALChangeNotification</key>
+			<string>com.midnightchips.volume.plist/ReloadPrefs</string>
+			<key>ALSectionDescriptors</key>
+			<array>
+			<dict>
+			<key>cell-class-name</key>
+			<string>ALSwitchCell</string>
+			<key>predicate</key>
+			<string>isSystemApplication = TRUE</string>
+			<key>icon-size</key>
+			<string>29</string>
+			<key>suppress-hidden-apps</key>
+			<string>1</string>
+			<key>title</key>
+			<string>System Applications</string>
+			</dict>
+			<dict>
+			<key>cell-class-name</key>
+			<string>ALSwitchCell</string>
+			<key>predicate</key>
+			<string>isSystemApplication = FALSE</string>
+			<key>icon-size</key>
+			<string>29</string>
+			<key>suppress-hidden-apps</key>
+			<string>1</string>
+			<key>title</key>
+			<string>User Applications</string>
+			</dict>
+			</array>
+			</dict>
+								<dict>
+														<key>cell</key>
+												<string>PSGroupCell</string>
+												<key>label</key>
+												<string>Other Hold the Volume Up Stuff</string>
+												<key>footerText</key>
+												<string>You Need to Hold for like a good 5 seconds</string>
+										</dict>
+
+										<dict>
+												<key>cell</key>
+												<string>PSSwitchCell</string>
+												<key>default</key>
+												<false/>
+												<key>defaults</key>
+												<string>com.midnightchips.volume.plist</string>
+												<key>PostNotification</key>
+												<string>com.midnightchips.volume.plist/ReloadPrefs</string>
+												<key>key</key>
+												<string>kVolUpRespring</string>
+												<key>label</key>
+												<string>Respring your Phone</string>
+												</dict>
+											<dict>
+														<key>cell</key>
+														<string>PSSwitchCell</string>
+														<key>default</key>
+														<false/>
+														<key>defaults</key>
+														<string>com.midnightchips.volume.plist</string>
+														<key>PostNotification</key>
+														<string>com.midnightchips.volume.plist/ReloadPrefs</string>
+														<key>key</key>
+														<string>kVolUpCC</string>
+														<key>label</key>
+														<string>Open the CC</string>
+												</dict>
+												<dict>
+															<key>cell</key>
+															<string>PSSwitchCell</string>
+															<key>default</key>
+															<false/>
+															<key>defaults</key>
+															<string>com.midnightchips.volume.plist</string>
+															<key>PostNotification</key>
+															<string>com.midnightchips.volume.plist/ReloadPrefs</string>
+															<key>key</key>
+															<string>kVolUpBat</string>
+															<key>label</key>
+															<string>Turn On (and off) Low Power Mode</string>
+													</dict>
+													<dict>
+																<key>cell</key>
+																<string>PSSwitchCell</string>
+																<key>default</key>
+																<false/>
+																<key>defaults</key>
+																<string>com.midnightchips.volume.plist</string>
+																<key>PostNotification</key>
+																<string>com.midnightchips.volume.plist/ReloadPrefs</string>
+																<key>key</key>
+																<string>kVolUpFlash</string>
+																<key>label</key>
+																<string>Turn On (and off) Torch</string>
+														</dict>
+														<dict>
+																	<key>cell</key>
+																	<string>PSSwitchCell</string>
+																	<key>default</key>
+																	<false/>
+																	<key>defaults</key>
+																	<string>com.midnightchips.volume.plist</string>
+																	<key>PostNotification</key>
+																	<string>com.midnightchips.volume.plist/ReloadPrefs</string>
+																	<key>key</key>
+																	<string>kVolUpSkip</string>
+																	<key>label</key>
+																	<string>Skip Forward A Song</string>
+															</dict>
+												<dict>
+												<key>action</key>
+												<string>RespringMe</string>
+												<key>cell</key>
+												<string>PSButtonCell</string>
+												<key>icon</key>
+										        <string>respring.png</string>
+												<key>label</key>
+												<string>Respring To Apply These Settings</string>
+												</dict>
+												<dict>
+																	<key>cell</key>
+															<string>PSGroupCell</string>
+															<key>label</key>
+															<string>Other Hold the Volume Down Stuff</string>
+															<key>footerText</key>
+															<string>You Need to Hold for like a good 5 seconds</string>
+													</dict>
+
+													<dict>
+															<key>cell</key>
+															<string>PSSwitchCell</string>
+															<key>default</key>
+															<false/>
+															<key>defaults</key>
+															<string>com.midnightchips.volume.plist</string>
+															<key>PostNotification</key>
+															<string>com.midnightchips.volume.plist/ReloadPrefs</string>
+															<key>key</key>
+															<string>kVolDownRespring</string>
+															<key>label</key>
+															<string>Respring your Phone</string>
+															</dict>
+														<dict>
+																	<key>cell</key>
+																	<string>PSSwitchCell</string>
+																	<key>default</key>
+																	<false/>
+																	<key>defaults</key>
+																	<string>com.midnightchips.volume.plist</string>
+																	<key>PostNotification</key>
+																	<string>com.midnightchips.volume.plist/ReloadPrefs</string>
+																	<key>key</key>
+																	<string>kVolDownCC</string>
+																	<key>label</key>
+																	<string>Open the CC</string>
+															</dict>
+															<dict>
+																		<key>cell</key>
+																		<string>PSSwitchCell</string>
+																		<key>default</key>
+																		<false/>
+																		<key>defaults</key>
+																		<string>com.midnightchips.volume.plist</string>
+																		<key>PostNotification</key>
+																		<string>com.midnightchips.volume.plist/ReloadPrefs</string>
+																		<key>key</key>
+																		<string>kVolDownBat</string>
+																		<key>label</key>
+																		<string>Turn On (and off) Low Power Mode</string>
+																</dict>
+																<dict>
+																			<key>cell</key>
+																			<string>PSSwitchCell</string>
+																			<key>default</key>
+																			<false/>
+																			<key>defaults</key>
+																			<string>com.midnightchips.volume.plist</string>
+																			<key>PostNotification</key>
+																			<string>com.midnightchips.volume.plist/ReloadPrefs</string>
+																			<key>key</key>
+																			<string>kVolDownFlash</string>
+																			<key>label</key>
+																			<string>Turn On (and off) Torch</string>
+																	</dict>
+																	<dict>
+																				<key>cell</key>
+																				<string>PSSwitchCell</string>
+																				<key>default</key>
+																				<false/>
+																				<key>defaults</key>
+																				<string>com.midnightchips.volume.plist</string>
+																				<key>PostNotification</key>
+																				<string>com.midnightchips.volume.plist/ReloadPrefs</string>
+																				<key>key</key>
+																				<string>kVolDownSkip</string>
+																				<key>label</key>
+																				<string>Skip Back A song</string>
+																		</dict>
+
+															<dict>
+															<key>action</key>
+															<string>RespringMe</string>
+															<key>cell</key>
+															<string>PSButtonCell</string>
+															<key>icon</key>
+													        <string>respring.png</string>
+															<key>label</key>
+															<string>Respring To Apply These Settings</string>
+															</dict>
+
+				<dict>
+					<key>cell</key>
+					<string>PSGroupCell</string>
+					<key>label</key>
+					<string>Created By: MidnightChips, and Rob311</string>
+				</dict>
+
+
+	</array>
+	<key>title</key>
+	<string>Volume Keys</string>
+</dict>
+</plist>

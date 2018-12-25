@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>items</key>
+	<array>
+
+		<dict>
+					<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enable The Touch Areas You Want</string>
+			<key>footerText</key>
+			<string>Go On, Don't Be Shy!</string>
+	</dict>
+
+	<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTOUCHES.plist</string>
+			<key>key</key>
+			<string>enableRB</string>
+			<key>label</key>
+			<string>Enable Right Bottom</string>
+	</dict>
+	<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTOUCHES.plist</string>
+			<key>key</key>
+			<string>enableRM</string>
+			<key>label</key>
+			<string>Enable Right Middle</string>
+	</dict>
+	<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTOUCHES.plist</string>
+			<key>key</key>
+			<string>enableRT</string>
+			<key>label</key>
+			<string>Enable Right Top</string>
+	</dict>
+
+	<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTOUCHES.plist</string>
+			<key>key</key>
+			<string>enableLB</string>
+			<key>label</key>
+			<string>Enable Left Bottom</string>
+	</dict>
+
+	<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTOUCHES.plist</string>
+			<key>key</key>
+			<string>enableLM</string>
+			<key>label</key>
+			<string>Enable Left Middle</string>
+	</dict>
+
+	<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTOUCHES.plist</string>
+			<key>key</key>
+			<string>enableLT</string>
+			<key>label</key>
+			<string>Enable Left Top</string>
+	</dict>
+
+
+
+<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Select the App to Launch</string>
+		</dict>
+
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Right Side Bottom</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>touchesAppRightBottom</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/EXCITANTTOUCHES.plist</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>EXCITANTTOUCHES/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Right Side Middle</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>touchesAppRightMiddle</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/EXCITANTTOUCHES.plist</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>EXCITANTTOUCHES/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Right Side Top</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>touchesAppRightTop</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/EXCITANTTOUCHES.plist</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>EXCITANTTOUCHES/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Left Side Bottom</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>touchesAppLeftBottom</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/EXCITANTTOUCHES.plist</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>EXCITANTTOUCHES/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Left Side Middle</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>touchesAppLeftMiddle</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/EXCITANTTOUCHES.plist</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>EXCITANTTOUCHES/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Left Side Top</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>touchesAppLeftTop</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/EXCITANTTOUCHES.plist</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>EXCITANTTOUCHES/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+
+		<dict>
+					<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Configuration Stuff</string>
+			<key>footerText</key>
+			<string>Configuation Stuff</string>
+	</dict>
+	<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTOUCHES.plist</string>
+			<key>key</key>
+			<string>taps2</string>
+			<key>label</key>
+			<string>Open with 2 Taps</string>
+	</dict>
+
+			<dict>
+					<key>cell</key>
+					<string>PSSwitchCell</string>
+					<key>default</key>
+					<false/>
+					<key>defaults</key>
+					<string>EXCITANTTOUCHES.plist</string>
+					<key>key</key>
+					<string>taps3</string>
+					<key>label</key>
+					<string>Open with 3 Taps</string>
+			</dict>
+
+			<dict>
+							<key>cell</key>
+							<string>PSSwitchCell</string>
+							<key>default</key>
+							<false/>
+							<key>defaults</key>
+							<string>EXCITANTTOUCHES.plist</string>
+							<key>key</key>
+							<string>taps4</string>
+							<key>label</key>
+							<string>Open with 4 Taps</string>
+			</dict>
+
+			<dict>
+							<key>cell</key>
+							<string>PSSwitchCell</string>
+							<key>default</key>
+							<false/>
+							<key>defaults</key>
+							<string>EXCITANTTOUCHES.plist</string>
+							<key>key</key>
+							<string>setColor</string>
+							<key>label</key>
+							<string>Set the Color of the Tap Zones from Clear to Red</string>
+			</dict>
+
+			<dict>
+						<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Set the Height And Width</string>
+				<key>footerText</key>
+				<string>First Option is Height, Second is Width.</string>
+		</dict>
+
+
+			<dict>
+				<key>cell</key>
+				<string>PSSliderCell</string>
+				<key>default</key>
+				<integer>100</integer> <!-- Default value of the slider -->
+				<key>defaults</key>
+				<string>EXCITANTTOUCHES.plist</string> <!-- Path to your Entry.plist (WithoutExtension) -->
+				<key>key</key>
+				<string>vHeight</string> <!-- Your key name here -->
+				<key>max</key>
+				<real>500</real> <!-- Enter your maximum value here -->
+				<key>min</key>
+				<real>1</real> <!-- Enter your minimum value here -->
+				<key>showValue</key> <!-- Show the value of the slider. true or false. -->
+				<true/>
+				<key>label</key>
+				<string>Set the Length of the Bar</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSSliderCell</string>
+				<key>default</key>
+				<integer>10</integer> <!-- Default value of the slider -->
+				<key>defaults</key>
+				<string>EXCITANTTOUCHES.plist</string> <!-- Path to your Entry.plist (WithoutExtension) -->
+				<key>key</key>
+				<string>vWidth</string> <!-- Your key name here -->
+				<key>max</key>
+				<real>100</real> <!-- Enter your maximum value here -->
+				<key>min</key>
+				<real>1</real> <!-- Enter your minimum value here -->
+				<key>showValue</key> <!-- Show the value of the slider. true or false. -->
+				<true/>
+				<key>label</key>
+				<string>Set the Width of the Bar</string>
+			</dict>
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Apply Changes</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring Device</string>
+			<key>action</key>
+			<string>RespringMe</string>
+		</dict>
+		</array>
+	<key>title</key>
+	<string>Touch the Side of your Screen</string>
+</dict>
+</plist>

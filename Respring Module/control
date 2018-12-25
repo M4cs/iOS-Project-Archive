@@ -1,0 +1,8 @@
+Package: com.macs.control-center.respringmodule
+Name: EzRespring
+Version: 1.0
+Architecture: iphoneos-arm
+Description: A Control Center Module for Silo that will Respring your phone.
+Author: M4cs
+Section: Control Center (Modules)
+Maintainer: M4cs

@@ -1,0 +1,9 @@
+Package: com.auxilium.fibonaccicam
+Name: FibonacciCam
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Macs (macs@m4cs.xyz)
+Author: Macs (macs@m4cs.xyz)
+Section: Tweaks

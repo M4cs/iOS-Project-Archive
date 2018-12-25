@@ -1,0 +1,9 @@
+Package: pro.evanwalters.nosaurikerror
+Name: NoSaurikError
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Evan Walters
+Author: Evan Walters
+Section: Tweaks

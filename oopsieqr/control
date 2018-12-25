@@ -1,0 +1,9 @@
+Package: com.macs.oopsieqr
+Name: OopsieQR
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: U-DESKTOP-OGK894Q\maxli
+Author: U-DESKTOP-OGK894Q\maxli
+Section: Tweaks

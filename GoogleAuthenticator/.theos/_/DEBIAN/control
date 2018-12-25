@@ -1,0 +1,13 @@
+Package: com.m4cs.googleauthenticator
+Section: Tweaks
+Maintainer: M4cs (macs@m4cs.xyz)
+Depends: mobilesubstrate
+Conflicts: 
+Architecture: iphoneos-arm
+Filename: ./debs/com.m4cs.googleauthenticator.deb
+Description: Google Authenticator Launcher for your CC.
+Name: EzGoogleAuthenticator
+Author: M4cs Development Team
+Depiction: https://M4cs-Development.github.io/repo/depictions/?p=ezGA
+Version: 0.4-beta-2+debug
+Installed-Size: 140

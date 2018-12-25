@@ -1,0 +1,8 @@
+Package: com.m4cs.control-center.ezreboot
+Name: EzReboot
+Version: 1.1
+Architecture: iphoneos-arm
+Description: A Reboot button for your Control Center.
+Author: M4cs
+Section: Control Center (Modules)
+Maintainer: M4cs

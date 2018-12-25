@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Speech</string>
+			<key>footerText</key>
+			<string>Enter the text to be read by Siri</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextViewCell</string>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>shutdownSpeech</string>
+			<key>label</key>
+			<string></string>
+			<key>height</key>
+			<string>400</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Speech Options</string>
+</dict>
+</plist>

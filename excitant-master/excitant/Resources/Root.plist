@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Excitant</string>
+		</dict>
+		<dict>
+			 <key>cell</key>
+			 <string>PSStaticTextCell</string>
+			 <key>cellClass</key>
+			 <string>PFHeaderCell</string>
+			 <key>background</key>
+			 <string>#EFEFF4</string>
+			 <key>icon</key>
+			 <string>banner.png</string>
+			 <key>alignment</key>
+			 <string>0</string>
+			 <key>height</key>
+			 <integer>165</integer>
+		 </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>SBRootListController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Tapping the status bar</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>SwitchRootListController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Toggle the Mute Switch</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>VolumeController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Control The Volume Keys</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>TouchesRootListController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Tap The Side</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>HomeHijackController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>HomeHijack</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Created By:</string>
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>ContactmeRedditChila</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+				<string>reddit.png</string>
+		<key>label</key>
+		<string>Chilaxan</string>
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>ContactmeRedditClarke</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+				<string>reddit.png</string>
+		<key>label</key>
+		<string>Clarke</string>
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>ContactmeTwitterRob</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+				<string>twitter.png</string>
+		<key>label</key>
+		<string>Rob311</string>
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>ContactmeTwitter</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+				<string>twitter.png</string>
+		<key>label</key>
+		<string>@MidnightChip</string>
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>ContactmeReddit</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+				<string>reddit.png</string>
+		<key>label</key>
+		<string>MidnightChips</string>
+		</dict>
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Join the Auxilium Discord!</string>
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>AuxiliumDiscord</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+				<string>discord.png</string>
+		<key>label</key>
+		<string>Auxilium</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Support us and our antics!</string>
+			<key>footerText</key>
+			<string>We promise to never lock any of our content behind Patreon.</string>
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>Paypal</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+				<string>paypal.png</string>
+		<key>label</key>
+		<string>Buy us a soda or something (ᵔᴥᵔ)</string>
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>Patreon</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+				<string>patreon.png</string>
+		<key>label</key>
+		<string>Help us continue to make tweaks :P</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Thanks to all of the people who we annoyed with our questions, and yet still helped us. Copyright 2018, Auxilium Development</string>
+		</dict>
+
+
+	</array>
+	<key>title</key>
+	<string>Excitant</string>
+</dict>
+</plist>

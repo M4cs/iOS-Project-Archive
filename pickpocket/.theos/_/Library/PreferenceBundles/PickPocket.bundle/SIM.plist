@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>General</string>
+			<key>footerText</key>
+			<string>Choose what happens if the SIM Card is pulled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>simEnabled</string>
+			<key>label</key>
+			<string>SIM Card Pulled Action</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Alarm type</string>
+			<key>footerText</key>
+			<string>Choose the type of alarm you want to use when X wrong passwords have been entered, then tap on the corresponding cell above to configure the alarm</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>simAlarmType</string>
+			<key>validValues</key>
+				<array>
+					<integer>1</integer>
+					<integer>2</integer>
+					<integer>3</integer>
+				</array>
+			<key>validTitles</key>
+				<array>
+					<string>Sound</string>
+					<string>Speech</string>
+					<string>None</string>
+				</array>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Sound Options</string>
+			<key>detail</key>
+			<string>PickPocketSIMSoundListController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Speech Options</string>
+			<key>detail</key>
+			<string>PickPocketSIMSpeechListController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>SIM Card Pulled</string>
+			<key>footerText</key>
+			<string>Configure mail/SMS in the Email and SMS section of PickPocket</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>simEmail</string>
+			<key>label</key>
+			<string>Send Email</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>simSMS</string>
+			<key>label</key>
+			<string>Send SMS</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SIM Card Pulled Options</string>
+</dict>
+</plist>

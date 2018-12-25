@@ -1,0 +1,12 @@
+Package: com.m4cs.chrome
+Version: 0.1-beta
+Section: Tweaks
+Maintainer: M4cs (macs@m4cs.xyz)
+Depends: mobilesubstrate
+Conflicts: 
+Architecture: iphoneos-arm
+Filename: ./debs/com.m4cs.chrome.deb
+Description: Chrome Launcher for your CC.
+Name: EzChrome
+Author: M4cs Development Team
+Depiction: https://M4cs-Development.github.io/repo/depictions/?p=ezChrome

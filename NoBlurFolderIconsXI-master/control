@@ -1,0 +1,9 @@
+Package: pro.evanwalters.noblurfolderconxi
+Name: NoBlurFolderIconXI
+Depends: mobilesubstrate
+Version: 0.2
+Architecture: iphoneos-arm
+Description: Removes the blurry background on folder icons, fucks up the dock right now
+Maintainer: Evan Walters
+Author: Evan Walters
+Section: Tweaks

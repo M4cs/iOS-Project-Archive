@@ -1,0 +1,13 @@
+Package: com.m4cs.spotify
+Section: Tweaks
+Maintainer: M4cs (macs@m4cs.xyz)
+Depends: mobilesubstrate
+Conflicts: 
+Architecture: iphoneos-arm
+Filename: ./debs/com.m4cs.music.deb
+Description: Music Launcher for your CC.
+Name: EzSpotify
+Author: M4cs Development Team
+Depiction: https://M4cs-Development.github.io/repo/depictions/?p=ezMmusic
+Version: 0.1-beta-1+debug
+Installed-Size: 140

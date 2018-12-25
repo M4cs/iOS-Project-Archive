@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>items</key>
+	<array>
+	<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Please Choose only one to Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Configuration Stuff</string>
+			<key>footerText</key>
+			<string>Configuation Stuff</string>
+	</dict>
+	<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>taptaps2</string>
+			<key>label</key>
+			<string>Use 2 Taps</string>
+			</dict>
+
+			<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>taptaps3</string>
+			<key>label</key>
+			<string>Use 3 Taps</string>
+			</dict>
+
+			<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>taptaps4</string>
+			<key>label</key>
+			<string>Use 4 Taps</string>
+			</dict>
+
+			<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Select the App to Launch</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>enableAppTap</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Launch App</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>launchTapApp</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/EXCITANTTAPS.plist</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>EXCITANTTAPS/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict> <!--    <dict>
+        <key>cell</key>
+        <string>PSLinkCell</string>
+        <key>bundle</key>
+        <string>AppList</string>
+        <key>isController</key>
+        <string>1</string>
+        <key>label</key>
+        <string>Select App</string>
+        <key>icon</key>
+        <string></string>
+        <key>ALSettingsKey</key>
+        <string>launchAppTap</string>
+        <key>ALSettingsPath</key>
+        <string>/var/mobile/Library/Preferences/EXCITANTTAPS.plist</string>
+        <key>ALSingleEnabledMode</key>
+        <string>1</string>
+        <key>ALChangeNotification</key>
+        <string>EXCITANTTAPS/saved</string>
+        <key>ALSectionDescriptors</key>
+        <array>
+        <dict>
+        <key>cell-class-name</key>
+        <string>ALSwitchCell</string>
+        <key>predicate</key>
+        <string>isSystemApplication = TRUE</string>
+        <key>icon-size</key>
+        <string>29</string>
+        <key>suppress-hidden-apps</key>
+        <string>1</string>
+        <key>title</key>
+        <string>System Applications</string>
+        </dict>
+        <dict>
+        <key>cell-class-name</key>
+        <string>ALSwitchCell</string>
+        <key>predicate</key>
+        <string>isSystemApplication = FALSE</string>
+        <key>icon-size</key>
+        <string>29</string>
+        <key>suppress-hidden-apps</key>
+        <string>1</string>
+        <key>title</key>
+        <string>User Applications</string>
+        </dict>
+        </array>
+        </dict> -->
+
+	<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Utilities</string>
+		</dict>
+        <dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>enableUtils</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+	
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>uicache</string>
+			<key>label</key>
+			<string>UICache</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>respring</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>reboot</string>
+			<key>label</key>
+			<string>Reboot</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>safemode</string>
+			<key>label</key>
+			<string>Safemode</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>shutdown</string>
+			<key>label</key>
+			<string>Shutdown</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>sleep</string>
+			<key>label</key>
+			<string>Sleep</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>FlashLight/Tourch</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>enableFlash</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Low Power Mode</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>enableLPM</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>AirPlane Mode</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>enableAPM</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Rotation Lock</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>enableRL</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Show Control Center</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>enableCC</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>enableRespring</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Lock Device</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>EXCITANTTAPS.plist</string>
+			<key>key</key>
+			<string>enableSleep</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Apply Changes</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring Device</string>
+			<key>action</key>
+			<string>respringDevice</string>
+		</dict>
+		</array>
+	<key>title</key>
+	<string>Tapping the Staus Bar</string>
+</dict>
+</plist> 

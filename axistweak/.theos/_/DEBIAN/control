@@ -1,0 +1,10 @@
+Package: com.yourcompany.axistweak
+Name: AxisTweak
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: U-DESKTOP-OGK894Q\maxli
+Author: U-DESKTOP-OGK894Q\maxli
+Section: Tweaks
+Version: 0.0.1-2+debug
+Installed-Size: 117

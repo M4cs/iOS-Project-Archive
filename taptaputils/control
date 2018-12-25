@@ -1,0 +1,9 @@
+Package: com.clarke1234.taptaputils
+Name: TapTapUtils
+Depends: mobilesubstrate
+Version: 2.1
+Architecture: iphoneos-arm
+Description: Tap twice on the status bar to access some basic utilities
+Maintainer: Clarke1234
+Author: Clarke1234
+Section: Tweaks

@@ -1,0 +1,9 @@
+Package: com.macs.wetunlock
+Name: WetUnlock
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Max (auxiliumdev.com)
+Author: Max (auxiliumdev.com)
+Section: Tweaks

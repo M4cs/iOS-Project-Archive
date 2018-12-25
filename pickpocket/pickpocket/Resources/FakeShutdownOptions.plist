@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Password</string>
+			<key>footerText</key>
+			<string>If you want to be able to shutdown your device, enable the below switch and put a password. To really shutdown your device, you need to hold the shutdown screen for 4 seconds and to enter the correct password. Then, you will be able to really shutdown your device.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>fakeShutdownPasswordEnabled</string>
+			<key>label</key>
+			<string>Allow Real Shutdown</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSecureEditTextCell</string>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>fakeShutdownPassword</string>
+			<key>label</key>
+			<string>Password</string>
+			<key>placeholder</key>
+			<string>Default: alpine</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>On Fake Shutdown</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>fakeShutdownSaveFrontPic</string>
+			<key>label</key>
+			<string>Save Front Pic</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>fakeShutdownSaveRearPic</string>
+			<key>label</key>
+			<string>Save Rear Pic</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>At each wrong password attempt</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>fakeShutdownWrongPasswordSaveFrontPic</string>
+			<key>label</key>
+			<string>Save Front Pic</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>fakeShutdownWrongPasswordSaveRearPic</string>
+			<key>label</key>
+			<string>Save Rear Pic</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>On Fake Shutdown</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>fakeShutdownEmail</string>
+			<key>label</key>
+			<string>Send Email</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>fakeShutdownSMS</string>
+			<key>label</key>
+			<string>Send SMS</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Password Canceled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>fakeShutdownPasswordCancelEmail</string>
+			<key>label</key>
+			<string>Send Email</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>fakeShutdownPasswordCancelSMS</string>
+			<key>label</key>
+			<string>Send SMS</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>You can choose what will be in the Mail/SMS in the Mail and SMS sections of the PickPocket preference pane</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Manage Switches</string>
+			<key>footerText</key>
+			<string>PickPocket is using FlipSwitch to turn on and turn off these things. This mean that you need to enable/disable again things manually once the thief gave your device back</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>fakeShutdownEnableDND</string>
+			<key>label</key>
+			<string>Enable Do Not Disturb</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>fakeShutdownEnableLPM</string>
+			<key>label</key>
+			<string>Enable Low Power Mode</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>fakeShutdownDisableRinger</string>
+			<key>label</key>
+			<string>Disable Ringer</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>fakeShutdownDisableVibration</string>
+			<key>label</key>
+			<string>Disable Vibration</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Fake Shutdown Options</string>
+</dict>
+</plist>

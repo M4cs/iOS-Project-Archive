@@ -1,0 +1,6 @@
+Package: com.auxilium.haystack.ezcc
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Auxilium Team (macs@auxilium.com)
+Depends: mobilesubstrate
+Architecture: iphoneos-arm

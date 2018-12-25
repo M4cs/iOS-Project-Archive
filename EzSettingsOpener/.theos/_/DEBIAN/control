@@ -1,0 +1,13 @@
+Package: com.m4cs.settings
+Section: Tweaks
+Maintainer: M4cs (macs@m4cs.xyz)
+Depends: mobilesubstrate
+Conflicts: 
+Architecture: iphoneos-arm
+Filename: ./debs/com.m4cs.settingsopener.deb
+Description: Settings Launcher for your CC.
+Name: EzSettings
+Author: M4cs Development Team
+Depiction: https://M4cs-Development.github.io/repo/depictions/?p=ezSettings
+Version: 0.3-beta-3+debug
+Installed-Size: 140

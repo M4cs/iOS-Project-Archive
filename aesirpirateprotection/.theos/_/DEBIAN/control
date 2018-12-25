@@ -1,0 +1,10 @@
+Package: com.macs.aesirpirateprotection
+Name: AesirPirateProtection
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Macs
+Author: Macs
+Section: Tweaks
+Version: 0.0.1-13+debug
+Installed-Size: 117

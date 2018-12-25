@@ -1,0 +1,10 @@
+Package: com.macs.auxiliumdev.presstosettings
+Name: PressToSettings
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Macs and Tony (macs@gmail.com)
+Author: Macs and Tony (macs@gmail.com)
+Section: Tweaks
+Version: 0.0.1-2+debug
+Installed-Size: 117

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+			<array>
+				<dict>
+					<key>cell</key>
+						<string>PSGroupCell</string>
+					<key>label</key>
+						<string>Mute Switch</string>
+				</dict>
+				<dict>
+					<key>cell</key>
+						<string>PSSwitchCell</string>
+					<key>default</key>
+						<true/>
+					<key>defaults</key>
+						<string>com.chilaxan.ezswitchprefs</string>
+					<key>id</key>
+						<string>switchenabled</string>
+					<key>key</key>
+						<string>switchenabled</string>
+					<key>label</key>
+						<string>Enabled</string>
+				</dict>
+				<dict>
+					<key>PostNotification</key>
+						<string>com.chilaxan.ezswitchprefs/settingsupdated</string>
+					<key>cell</key>
+						<string>PSLinkListCell</string>
+					<key>default</key>
+						<integer>2</integer>
+					<key>defaults</key>
+						<string>com.chilaxan.ezswitchprefs</string>
+					<key>key</key>
+						<string>switchPreferences</string>
+					<key>label</key>
+						<string></string>
+					<key>id</key>
+						<string>switchPreferences</string>
+					<key>detail</key>
+						<string>PSListItemsController</string>
+					<key>validValues</key>
+						<array>
+							<integer>0</integer>
+							<integer>1</integer>
+							<integer>2</integer>
+							<integer>3</integer>
+							<integer>4</integer>
+							<integer>5</integer>
+						</array>
+					<key>validTitles</key>
+						<array>
+							<string>Toggle Flashlight</string>
+							<string>Toggle Low Power Mode</string>
+							<string>Toggle Airplane Mode</string>
+                            <string>Toggle Mute *Does not work yet</string>
+                            <string>Toggle Rotation Lock</string>
+														<string>Open an App</string>
+
+						</array>
+				</dict>
+				<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>bundle</key>
+				<string>AppList</string>
+				<key>isController</key>
+				<string>1</string>
+				<key>label</key>
+				<string>Select an App</string>
+				<key>icon</key>
+				<string></string>
+				<key>ALSettingsKey</key>
+				<string>switchApp</string>
+				<key>ALSettingsPath</key>
+				<string>/var/mobile/Library/Preferences/com.chilaxan.ezswitchprefs</string>
+				<key>ALSingleEnabledMode</key>
+				<string>1</string>
+				<key>ALChangeNotification</key>
+				<string>com.chilaxan.ezswitchprefs/settingsupdated</string>
+				<key>ALSectionDescriptors</key>
+				<array>
+				<dict>
+				<key>cell-class-name</key>
+				<string>ALSwitchCell</string>
+				<key>predicate</key>
+				<string>isSystemApplication = TRUE</string>
+				<key>icon-size</key>
+				<string>29</string>
+				<key>suppress-hidden-apps</key>
+				<string>1</string>
+				<key>title</key>
+				<string>System Applications</string>
+				</dict>
+				<dict>
+				<key>cell-class-name</key>
+				<string>ALSwitchCell</string>
+				<key>predicate</key>
+				<string>isSystemApplication = FALSE</string>
+				<key>icon-size</key>
+				<string>29</string>
+				<key>suppress-hidden-apps</key>
+				<string>1</string>
+				<key>title</key>
+				<string>User Applications</string>
+				</dict>
+				</array>
+				</dict>
+				<dict>
+					<key>cell</key>
+						<string>PSGroupCell</string>
+					<key>label</key>
+						<string>Apply Changes</string>
+				</dict>
+				<dict>
+					<key>cell</key>
+						<string>PSButtonCell</string>
+					<key>label</key>
+						<string>Respring Device</string>
+					<key>action</key>
+						<string>respring</string>
+				</dict>
+				<dict>
+					<key>cell</key>
+						<string>PSGroupCell</string>
+				<key>label</key>
+						<string>Created by chilaxan</string>
+				</dict>
+			</array>
+		<key>title</key>
+			<string>Mute Switch</string>
+	</dict>
+</plist>

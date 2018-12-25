@@ -1,0 +1,10 @@
+Package: com.macs.appitor
+Name: Appitor
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Macs (macs@gmail.com)
+Author: Macs (macs@gmail.com)
+Section: Tweaks
+Version: 0.0.1-2+debug
+Installed-Size: 117

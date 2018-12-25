@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <!--
+            A short name for what this plugin provides. In most cases, it should
+            just be the name of the app you are providing for (e.g., Twitter).
+        -->
+        <key>CFBundleDisplayName</key>
+        <string>Twitter</string>
+        <!--
+            A dictionary of provider classes, and the bundle identifiers they provide
+            for. The key should represent your class name, and it's value may be either
+            a string or array of strings containing the bundle identifiers of apps to
+            provide for.
+        -->
+        <key>DDNotificationExternalProviderClasses</key>
+        <dict>
+            <key>DDNotificationTwitterContactPhotoProvider</key>
+            <string>com.atebits.Tweetie2</string>
+        </dict>
+        <!-- 
+        The ShortLook API version to use. This is to ensure that future updates with potentially
+        breaking API changes do not crash ShortLook. These will be rare, if ever, but exists for
+        future-proofing.
+        If you change this value, ShortLook will not load your provider.
+        -->
+        <key>DDNotificationExternalProviderAPIVersion</key>
+        <integer>1</integer>
+    </dict>
+</plist>

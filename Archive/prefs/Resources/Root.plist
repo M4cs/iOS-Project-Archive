@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Adjust Width</string>    
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>/Users/lucifer/Desktop/Archive/prefs/entry</string> <!-- Path to your Entry.plist (WithoutExtension) -->    
+			<key>key</key>
+			<string>kEnabled</string>      
+			<key>label</key>
+			<string>Enable</string>       
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<integer>15</integer> <!-- Default value of the slider -->
+			<key>defaults</key>
+			<string>/Users/lucifer/Desktop/Archive/prefs/entry</string> <!-- Path to your Entry.plist (WithoutExtension) -->
+			<key>key</key>
+			<string>kWidth</string> <!-- Your key name here -->
+			<key>max</key>
+			<real>30</real> <!-- Enter your maximum value here -->
+			<key>min</key>
+			<real>10</real> <!-- Enter your minimum value here -->
+			<key>showValue</key> <!-- Show the value of the slider. true or false. -->
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Adjust Alpha</string>    
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<integer>1</integer> <!-- Default value of the slider -->
+			<key>defaults</key>
+			<string>/Users/lucifer/Desktop/Archive/prefs/entry</string> <!-- Path to your Entry.plist (WithoutExtension) -->
+			<key>key</key>
+			<string>kAlpha</string> <!-- Your key name here -->
+			<key>max</key>
+			<real>1</real> <!-- Enter your maximum value here -->
+			<key>min</key>
+			<real>0</real> <!-- Enter your minimum value here -->
+			<key>showValue</key> <!-- Show the value of the slider. true or false. -->
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Saves settings</string>    
+		</dict>
+		<dict>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>action</key>
+		<string>respring</string>
+		<key>label</key>
+		<string>Respring!</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Created By</string>      
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>ContactmeTwitter</string>	
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+        <string>twitter.png</string>
+		<key>label</key>
+		<string>@MidnightChip</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Join the Auxilium Discord!</string>      
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>AuxiliumDiscord</string>	
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+        <string>discord.png</string>
+		<key>label</key>
+		<string>@MidnightChip</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Preferences by</string>      
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>LuciTwitter</string>	
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+        <string>twitter.png</string>
+		<key>label</key>
+		<string>@Lucifers_Circle</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Prefs</string>
+</dict>
+</plist>

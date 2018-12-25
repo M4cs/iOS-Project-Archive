@@ -1,0 +1,9 @@
+Package: com.macs.sleekmessages
+Name: Sleek Messages
+Depends: mobilesubstrate
+Version: 0.1
+Architecture: iphoneos-arm
+Description: A better messages UI and customization!
+Maintainer: Macs
+Author: Macs
+Section: Tweaks

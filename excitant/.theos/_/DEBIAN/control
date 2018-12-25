@@ -1,0 +1,10 @@
+Package: com.clarke1234.excitant
+Name: excitant
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Clarke1234
+Author: Clarke1234
+Section: Tweaks
+Version: 0.0.1-2+debug
+Installed-Size: 117

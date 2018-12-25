@@ -1,0 +1,9 @@
+Package: test3
+Name: test3
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Hal0405
+Author: Hal0405
+Section: Tweaks

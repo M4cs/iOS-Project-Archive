@@ -1,0 +1,10 @@
+Package: com.chilaxan.libexcitant
+Name: libexcitant
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: chilaxan
+Author: chilaxan
+Section: Tweaks
+Version: 0.0.4
+Installed-Size: 117

@@ -1,0 +1,20 @@
+#DarkSwitcher Beta!
+___
+DarkSwitcher Beta has now been released! This tweak allows you to customize your App Switcher to make the background as dark as you want! You can change these settings in the DarkSwitcher Settings pane! This is just the beginning as this will transition into ColorSwitcher which will utilize libcolorpicker to be able to custom tailor your App Switcher to your liking. For now DarkSwitcher is free from the Official Auxilium Repo. However ColorSwitcherPro will be a $0.99 paid tweak with a ColorSwitcher Lite available. Try DarkSwitcher today and expect ColorSwitcher in the near future! Thank you to u/Tonyk7 for all the help on this tweak! Couldn't of done it without you :)
+___
+###Screenshots:
+
+Settings Pane:
+
+App Switcher with Modification:
+___
+###Where can I find DarkSwitcher?
+___
+**Official Repo:** http://repo.auxiliumdev.com/
+___
+###Other Links
+___
+**Beta Repo:** http://beta.auxiliumdev.com/
+**Twitter:** https://twitter.com/AuxiliumDev
+**Help Support Us!** https://paypal.me/AuxiliumDevelopment
+**Official Discord Server** https://discord.io/auxiliumdev

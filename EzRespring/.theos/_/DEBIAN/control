@@ -1,0 +1,9 @@
+Package: com.apple.control-center.respring
+Name: EzRespring
+Architecture: iphoneos-arm
+Description: A Respring button for your Control Center.
+Author: M4cs
+Section: Control Center (Modules)
+Maintainer: M4cs
+Version: 1.0-2+debug
+Installed-Size: 132

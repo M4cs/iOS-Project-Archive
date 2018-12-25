@@ -1,0 +1,8 @@
+Package: com.m4cs.lpmipad
+Name: EzAutoBrightness
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: A Control Center Module to toggle LPM on iPad
+Author: M4cs
+Section: Control Center (Modules)
+Maintainer: M4cs (macs@m4cs.xyz)

@@ -1,0 +1,8 @@
+Package: com.exccmodules.control-center.ezuicache
+Name: EzUICache
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: A UICache button for Control Center with Silo.
+Author: M4cs and Chilaxan
+Section: Control Center (Modules)
+Maintainer: m4cs.yourepo.com

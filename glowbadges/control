@@ -1,0 +1,10 @@
+Package: com.sassoty.glowbadge
+Name: GlowBadge
+Depends: mobilesubstrate
+Version: 1.3
+Architecture: iphoneos-arm
+Description: Replace app badges with icon glow!
+Maintainer: Sassoty <sassoty@gmail.com>
+Author: Sassoty <sassoty@gmail.com>
+Section: Tweaks
+Depiction: http://beta-repo.sassoty.com/deps.php?pkg=com.sassoty.glowbadge

@@ -1,0 +1,9 @@
+Package: com.ioscreatix.rooster
+Name: Rooster
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Disable an Application's Notifications with a 3D Touch Shortcut Action
+Maintainer: iOS Creatix
+Author: iOS Creatix
+Section: Tweaks

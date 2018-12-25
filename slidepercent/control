@@ -1,0 +1,9 @@
+Package: com.m4cs.slidepercent
+Name: Slidepercent
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: M4cs
+Author: M4cs
+Section: Tweaks

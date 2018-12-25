@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+					 <key>cell</key>
+					 <string>PSGroupCell</string>
+					 <key>footerText</key>
+					 <string>HomeHijack</string>
+			 </dict>
+<dict>
+	 <key>cell</key>
+	 <string>PSStaticTextCell</string>
+	 <key>cellClass</key>
+	 <string>PFHeaderCell</string>
+	 <key>background</key>
+	 <string>#EFEFF4</string>
+	 <key>icon</key>
+	 <string>banner.png</string>
+	 <key>alignment</key>
+	 <string>0</string>
+	 <key>height</key>
+	 <integer>165</integer>
+
+</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Who uses Siri anyway?</string>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>In Your Opinion, Who's Better Than Siri?</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>siriApp</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/EXCITANTTOUCHES.plist</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>EXCITANTTOUCHES.plist/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+
+			<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>bundle</key>
+			<string>AppList</string>
+			<key>isController</key>
+			<string>1</string>
+			<key>label</key>
+			<string>Triple Click That HomeButton</string>
+			<key>icon</key>
+			<string></string>
+			<key>ALSettingsKey</key>
+			<string>homeTriTap</string>
+			<key>ALSettingsPath</key>
+			<string>/var/mobile/Library/Preferences/EXCITANTTOUCHES.plist</string>
+			<key>ALSingleEnabledMode</key>
+			<string>1</string>
+			<key>ALChangeNotification</key>
+			<string>EXCITANTTOUCHES.plist/saved</string>
+			<key>ALSectionDescriptors</key>
+			<array>
+			<dict>
+			<key>cell-class-name</key>
+			<string>ALSwitchCell</string>
+			<key>predicate</key>
+			<string>isSystemApplication = TRUE</string>
+			<key>icon-size</key>
+			<string>29</string>
+			<key>suppress-hidden-apps</key>
+			<string>1</string>
+			<key>title</key>
+			<string>System Applications</string>
+			</dict>
+			<dict>
+			<key>cell-class-name</key>
+			<string>ALSwitchCell</string>
+			<key>predicate</key>
+			<string>isSystemApplication = FALSE</string>
+			<key>icon-size</key>
+			<string>29</string>
+			<key>suppress-hidden-apps</key>
+			<string>1</string>
+			<key>title</key>
+			<string>User Applications</string>
+			</dict>
+			</array>
+		</dict>
+
+					<dict>
+                <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Other Siri Options</string>
+            <key>footerText</key>
+            <string>Because Maybe You Don't Want to Open an App (Make sure that you press the button that you use to call Siri after you open the CC, and make sure to not have any app selected.)</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <false/>
+            <key>defaults</key>
+            <string>EXCITANTTOUCHES.plist</string>
+            <key>key</key>
+            <string>kCC</string>
+            <key>label</key>
+            <string>Open The CC Rather then Siri</string>
+						<key>PostNotification</key>
+						<string>EXCITANTTOUCHES.plist/saved</string>
+            </dict>
+						<dict>
+		            <key>cell</key>
+		            <string>PSSwitchCell</string>
+		            <key>default</key>
+		            <false/>
+		            <key>defaults</key>
+		            <string>EXCITANTTOUCHES.plist</string>
+		            <key>key</key>
+		            <string>kSiriRespring</string>
+		            <key>label</key>
+		            <string>Respring With Siri</string>
+								<key>PostNotification</key>
+								<string>EXCITANTTOUCHES.plist/saved</string>
+		            </dict>
+
+								<dict>
+											<key>cell</key>
+											<string>PSSwitchCell</string>
+											<key>default</key>
+											<false/>
+											<key>defaults</key>
+											<string>EXCITANTTOUCHES.plist</string>
+											<key>key</key>
+											<string>kSiriBat</string>
+											<key>label</key>
+											<string>Turn On (and off) Low Power Mode</string>
+											<key>PostNotification</key>
+											<string>EXCITANTTOUCHES.plist/saved</string>
+									</dict>
+									<dict>
+												<key>cell</key>
+												<string>PSSwitchCell</string>
+												<key>default</key>
+												<false/>
+												<key>defaults</key>
+												<string>EXCITANTTOUCHES.plist</string>
+												<key>key</key>
+												<string>siriFlash</string>
+												<key>label</key>
+												<string>Turn On (and off) Torch</string>
+												<key>PostNotification</key>
+												<string>EXCITANTTOUCHES.plist/saved</string>
+										</dict>
+
+						<dict>
+						<key>action</key>
+						<string>RespringMe</string>
+						<key>cell</key>
+						<string>PSButtonCell</string>
+						<key>icon</key>
+								<string>respring.png</string>
+						<key>label</key>
+						<string>Respring To Apply These Settings</string>
+						</dict>
+
+						<dict>
+			                <key>cell</key>
+			            <string>PSGroupCell</string>
+			            <key>label</key>
+			            <string>Triple Click The Home Button Other Options</string>
+			            <key>footerText</key>
+			            <string>Make Sure to Enable Guided Access Before you enable these (General>Accessibility>GuidedAccess>GuidedAccess and Accessibility Shortcut)</string>
+			        </dict>
+							<dict>
+									<key>cell</key>
+									<string>PSSwitchCell</string>
+									<key>default</key>
+									<false/>
+									<key>defaults</key>
+									<string>EXCITANTTOUCHES.plist</string>
+									<key>key</key>
+									<string>kRespring</string>
+									<key>label</key>
+									<string>Respring your Phone</string>
+									<key>PostNotification</key>
+									<string>EXCITANTTOUCHES.plist/saved</string>
+									</dict>
+								<dict>
+											<key>cell</key>
+											<string>PSSwitchCell</string>
+											<key>default</key>
+											<false/>
+											<key>defaults</key>
+											<string>EXCITANTTOUCHES.plist</string>
+											<key>key</key>
+											<string>kCCTap</string>
+											<key>label</key>
+											<string>Open the CC</string>
+											<key>PostNotification</key>
+											<string>EXCITANTTOUCHES.plist/saved</string>
+									</dict>
+
+									<dict>
+												<key>cell</key>
+												<string>PSSwitchCell</string>
+												<key>default</key>
+												<false/>
+												<key>defaults</key>
+												<string>EXCITANTTOUCHES.plist</string>
+												<key>key</key>
+												<string>kTapBat</string>
+												<key>label</key>
+												<string>Turn On (and off) Low Power Mode</string>
+												<key>PostNotification</key>
+												<string>EXCITANTTOUCHES.plist/saved</string>
+										</dict>
+										<dict>
+													<key>cell</key>
+													<string>PSSwitchCell</string>
+													<key>default</key>
+													<false/>
+													<key>defaults</key>
+													<string>EXCITANTTOUCHES.plist</string>
+													<key>key</key>
+													<string>kTapFlash</string>
+													<key>label</key>
+													<string>Turn On (and off) Torch</string>
+													<key>PostNotification</key>
+													<string>EXCITANTTOUCHES.plist/saved</string>
+											</dict>
+
+									<dict>
+									<key>action</key>
+									<string>RespringMe</string>
+									<key>cell</key>
+									<string>PSButtonCell</string>
+									<key>icon</key>
+							        <string>respring.png</string>
+									<key>label</key>
+									<string>Respring To Apply These Settings</string>
+									</dict>
+
+
+				<dict>
+					<key>cell</key>
+					<string>PSGroupCell</string>
+					<key>label</key>
+					<string>Created By: MidnightChips</string>
+				</dict>
+
+
+	</array>
+	<key>title</key>
+	<string>HomeHijack AKA: Who the Heck is Siri</string>
+</dict>
+</plist>

@@ -1,0 +1,13 @@
+Package: com.m4cs.messages
+Section: Tweaks
+Maintainer: M4cs (macs@m4cs.xyz)
+Depends: mobilesubstrate
+Conflicts: 
+Architecture: iphoneos-arm
+Filename: ./debs/com.m4cs.messages.deb
+Description: Message Launcher for your CC.
+Name: EzMessages
+Author: M4cs Development Team
+Depiction: https://M4cs-Development.github.io/repo/depictions/?p=ezMessages
+Version: 0.1-beta-3+debug
+Installed-Size: 136

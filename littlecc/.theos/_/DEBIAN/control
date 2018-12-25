@@ -1,0 +1,10 @@
+Package: com.macs.littlecc
+Name: LittleCC
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Macs
+Author: Macs
+Section: Tweaks
+Version: 0.0.1-1+debug
+Installed-Size: 117

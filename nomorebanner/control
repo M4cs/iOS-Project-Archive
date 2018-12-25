@@ -1,0 +1,9 @@
+Package: com.macs.nomorebanners
+Name: NoMoreBanners
+Depends: 
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: Hide those annoying "Open In App Banners"
+Maintainer: Macs
+Author: Macs
+Section: Tweaks

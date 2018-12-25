@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>General</string>
+			<key>footerText</key>
+			<string>Configure an alarm to play upon entering X wrong passwords</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>unlockProtectionEnabled</string>
+			<key>label</key>
+			<string>Unlock Protection Enabled</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Number Of Wrong Password Authorized</string>
+			<key>footerText</key>
+			<string>Enable the above switch to disable Touch ID wrong unlock fingerprint count </string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>2</real>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>unlockAuthorizedPassword</string>
+			<key>isSegmented</key>
+			<true/>
+			<key>showValue</key>
+			<true/>
+			<key>min</key>
+			<real>1</real>
+			<key>max</key>
+			<real>10</real>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>unlockTouchIDDisabled</string>
+			<key>label</key>
+			<string>Disable wrong fingerprint count</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Alarm type</string>
+			<key>footerText</key>
+			<string>Choose the type of alarm you want to play when X wrong passwords have been entered, then tap the corresponding cell above to configure the alarm. Note: Siri is disabled when the device is stolen.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>unlockAlarmType</string>
+			<key>validValues</key>
+				<array>
+					<integer>1</integer>
+					<integer>2</integer>
+					<integer>3</integer>
+				</array>
+			<key>validTitles</key>
+				<array>
+					<string>Sound</string>
+					<string>Speech</string>
+					<string>None</string>
+				</array>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Sound Options</string>
+			<key>detail</key>
+			<string>PickPocketUnlockSoundListController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Speech Options</string>
+			<key>detail</key>
+			<string>PickPocketUnlockSpeechListController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>At each wrong password attempt</string>
+			<key>footerText</key>
+			<string>Enable the above switch to save pics only when a wrong password has been entered (since Touch ID can result in too many false positives)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>unlockSaveFrontPic</string>
+			<key>label</key>
+			<string>Save Front Pic</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>unlockSaveRearPic</string>
+			<key>label</key>
+			<string>Save Rear Pic</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>unlockSavePicOnlyPassword</string>
+			<key>label</key>
+			<string>Only On Wrong Password</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>After X Wrong Passwords</string>
+			<key>footerText</key>
+			<string>Configure mail/SMS options in the Email and SMS section of PickPocket</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>unlockProtectionEmail</string>
+			<key>label</key>
+			<string>Send Email</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>key</key>
+			<string>unlockProtectionSMS</string>
+			<key>label</key>
+			<string>Send SMS</string>
+			<key>PostNotification</key>
+			<string>com.ziph0n.pickpocket10/ReloadPrefs</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Unlock Options</string>
+</dict>
+</plist>

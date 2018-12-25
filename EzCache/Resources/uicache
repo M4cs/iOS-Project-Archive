@@ -1,0 +1,6 @@
+#!/bin/sh
+su root
+alpine
+uicache
+killall -9 backboardd
+exit 0

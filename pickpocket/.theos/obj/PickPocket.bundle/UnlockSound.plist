@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Alarm</string>
+			<key>footerText</key>
+			<string>Put your alarms in /Library/Application Support/PickPocket/Sounds/. The sound can be in mp3, wav, wma, caf, m4r, m4a,...</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<string>None</string>
+			<key>defaults</key>
+			<string>com.ziph0n.pickpocket10</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>unlockAlarm</string>
+			<key>label</key>
+			<string>Sound File</string>
+			<key>set</key>
+			<string>previewAndSet:forSpecifier:</string>
+			<key>titlesDataSource</key>
+			<string>getValues:</string>
+			<key>valuesDataSource</key>
+			<string>getValues:</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Sound Options</string>
+</dict>
+</plist>

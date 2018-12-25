@@ -1,0 +1,10 @@
+Package: com.tonyk7.darkswitcher
+Name: DarkSwitcher
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Tonyk7
+Author: Tonyk7
+Section: Tweaks
+Version: 0.0.1-2+debug
+Installed-Size: 250

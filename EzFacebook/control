@@ -1,0 +1,12 @@
+Package: com.m4cs.facebook
+Version: 0.1-beta
+Section: Tweaks
+Maintainer: M4cs (macs@m4cs.xyz)
+Depends: mobilesubstrate
+Conflicts: 
+Architecture: iphoneos-arm
+Filename: ./debs/com.m4cs.facebook.deb
+Description: Facebook Launcher for your CC.
+Name: EzFacebook
+Author: M4cs Development Team
+Depiction: https://M4cs-Development.github.io/repo/depictions/?p=ezFacebook

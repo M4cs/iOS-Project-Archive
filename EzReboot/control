@@ -1,0 +1,11 @@
+Package: com.m4cs.control-center.ezreboot
+Version: 1.0
+Section: Tweaks
+Maintainer: M4cs (macs@m4cs.xyz
+Depends: mobilesubstrate
+Conflicts:
+Architecture: iphoneos-arm
+Description: Adds EzReboot Toggle to your Control Center!
+Name: EzReboot
+Author: M4cs, 5px
+Depiction: https://M4cs-Development.github.io/repo/depictions/?p=ezReboot

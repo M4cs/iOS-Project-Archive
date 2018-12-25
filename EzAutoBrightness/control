@@ -1,0 +1,8 @@
+Package: com.simalary.controlcenter.ezautobrightness
+Name: EzAutoBrightness
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: A Control Center Module to toggle Auto Brightness
+Author: Chris Harper / Simalary <19harperc@gmail.com>
+Section: Control Center (Modules)
+Maintainer: Chris Harper / Simalary <19harperc@gmail.com>

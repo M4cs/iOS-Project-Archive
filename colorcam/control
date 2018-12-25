@@ -1,0 +1,10 @@
+Package: com.macs.colorcam
+Name: ColorCam
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Change the look and feel of your Camera app.
+Maintainer: Macs
+Author: Macs
+Depiction: https://auxiliumdev.com/customdepictions/colorcam.html
+Section: Tweaks

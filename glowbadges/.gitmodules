@@ -1,0 +1,3 @@
+[submodule "UIImage-DominantColor"]
+	path = UIImage-DominantColor
+	url = https://github.com/Sassoty/UIImage-DominantColor.git

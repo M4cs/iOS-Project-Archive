@@ -1,0 +1,10 @@
+Package: com.rustybalboa.colormycc
+Name: ColorMyCC
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker (>= 1.1)
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Maddox
+Author: Maddox
+Section: Tweaks
+Version: 0.0.1-17+debug
+Installed-Size: 248

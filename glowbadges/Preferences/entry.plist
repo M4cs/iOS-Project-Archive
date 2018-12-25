@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = GlowBadge;
+	cell = PSLinkCell;
+	detail = GlowBadgeListController;
+	icon = GlowBadge.png;
+	isController = 1;
+	label = GlowBadge;
+    };
+}

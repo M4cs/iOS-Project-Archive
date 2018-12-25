@@ -1,0 +1,9 @@
+Package: com.m4cs.ezframework
+Name: EzFramework
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Allows access to EzCC tweaks.
+Maintainer: M4cs Development
+Author: M4cs Development
+Section: Utilities

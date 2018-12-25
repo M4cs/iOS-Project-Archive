@@ -1,0 +1,9 @@
+Package: co.dynastic.ios.tweak.shortlook.plugin.contact-photo.twitter
+Name: Twitter Profile Pictures for ShortLook
+Depends: mobilesubstrate, co.dynastic.ios.tweak.shortlook
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Show Twitter users' profile pictures in ShortLook when you receive a Twitter notification!
+Maintainer: AppleBetas
+Author: Dynastic Development
+Section: Tweaks (ShortLook)

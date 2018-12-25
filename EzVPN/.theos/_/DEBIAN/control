@@ -1,0 +1,9 @@
+Package: com.ezccmodules.control-center.ezvpn
+Name: ezvpn
+Architecture: iphoneos-arm
+Description: A toggle to turn VPN on or off from your control center.
+Author: Chilaxan, M4cs, Simalary (Chris Harper)
+Section: Control Center (Modules)
+Maintainer: Chilaxan, M4cs, Simalary (Chris Harper)
+Version: 0.0.1-1+debug
+Installed-Size: 96

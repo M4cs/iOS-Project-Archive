@@ -1,0 +1,10 @@
+Package: com.macs.switchease
+Name: Switchease
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Macs
+Author: Macs
+Section: Tweaks
+Version: 0.0.1-3+debug
+Installed-Size: 117

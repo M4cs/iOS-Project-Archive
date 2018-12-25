@@ -1,0 +1,13 @@
+Package: com.m4cs.snapchatopener
+Section: Tweaks
+Maintainer: M4cs (macs@m4cs.xyz)
+Depends: mobilesubstrate
+Conflicts: 
+Architecture: iphoneos-arm
+Filename: ./debs/com.m4cs.snapchatopener.deb
+Description: Snapchat Launcher for your CC.
+Name: EzSnapOpener
+Author: M4cs Development Team
+Depiction: https://M4cs-Development.github.io/repo/depictions/?p=ezSnap
+Version: 0.1-beta-1+debug
+Installed-Size: 136

@@ -1,0 +1,11 @@
+{
+    "folders":
+    [
+        {
+        	"name": "All",
+            "path": ".",
+            "folder_exclude_patterns": ["*theos", "obj"],
+            "file_include_patterns": ["*.m", "*.mm", "*.h", "*.xm", "*.plist", "Makefile", "control", "*.strings", "slicespreferences/Resources"]
+        }
+    ]
+}

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerCellClass</key>
+			<string>HeaderCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Settings</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>The strength of the glow is stronger when there are more badges.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.sassoty.glowbadge</string>
+			<key>PostNotification</key>
+			<string>com.sassoty.glowbadge/preferencechanged</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.sassoty.glowbadge</string>
+			<key>PostNotification</key>
+			<string>com.sassoty.glowbadge/preferencechanged</string>
+			<key>key</key>
+			<string>FoldersEnabled</string>
+			<key>label</key>
+			<string>Folders Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Color</string>
+		</dict>
+		<dict>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>com.sassoty.glowbadge</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>key</key>
+			<string>Color</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>PostNotification</key>
+			<string>com.sassoty.glowbadge/preferencechanged</string>
+			<key>label</key>
+			<string>Glow Color</string>
+			<key>validTitles</key>
+			<array>
+				<string>Random</string>
+				<string>Same as app</string>
+				<string>Yellow</string>
+				<string>Dark Gray</string>
+				<string>Light Gray</string>
+				<string>Gray</string>
+				<string>Red</string>
+				<string>Green</string>
+				<string>Blue</string>
+				<string>Cyan</string>
+				<string>Magenta</string>
+				<string>Orange</string>
+				<string>Purple</string>
+				<string>Brown</string>
+				<string>Black</string>
+				<string>White</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>673</integer>
+				<integer>674</integer>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<integer>6</integer>
+				<integer>7</integer>
+				<integer>8</integer>
+				<integer>9</integer>
+				<integer>10</integer>
+				<integer>11</integer>
+				<integer>12</integer>
+				<integer>13</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Show badges for:</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>Show badges: Shows badges for the selected option.
+
+Badge whitelist: Only apps identified in here will have badges when the option 'Apps in list' is selected.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>3</integer>
+			<key>defaults</key>
+			<string>com.sassoty.glowbadge</string>
+			<key>PostNotification</key>
+			<string>com.sassoty.glowbadge/preferencechanged</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>ShowBadges</string>
+			<key>validTitles</key>
+			<array>
+				<string>No apps</string>
+				<string>Only folders</string>
+				<string>Apps in list</string>
+				<string>All apps</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>BadgeWhitelistListController</string>
+			<key>label</key>
+			<string>Badge Whitelist</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Strength</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.sassoty.glowbadge</string>
+			<key>PostNotification</key>
+			<string>com.sassoty.glowbadge/preferencechanged</string>
+			<key>key</key>
+			<string>CustomStrengthEnabled</string>
+			<key>label</key>
+			<string>Custom Strength Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>defaults</key>
+			<string>com.sassoty.glowbadge</string>
+			<key>PostNotification</key>
+			<string>com.sassoty.glowbadge/preferencechanged</string>
+			<key>default</key>
+			<real>5.0</real>
+			<key>min</key>
+			<real>5.0</real>
+			<key>max</key>
+			<real>17.5</real>
+			<key>showValue</key>
+			<true/>
+			<key>key</key>
+			<string>CustomStrength</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>About</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Follow @Sassoty</string>
+			<key>icon</key>
+			<string>Twitter.png</string>
+			<key>action</key>
+			<string>openTwitter</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Support the Developer</string>
+			<key>icon</key>
+			<string>PayPal.png</string>
+			<key>action</key>
+			<string>openDonate</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Visit My Website</string>
+			<key>icon</key>
+			<string>Website.png</string>
+			<key>action</key>
+			<string>openWebsite</string>
+		</dict>
+		<dict>
+		    <key>cell</key>
+		    <string>PSGroupCell</string>
+		    <key>footerCellClass</key>
+		    <string>ThanksCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>GlowBadge © Noah Saso 2014</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>GlowBadge</string>
+</dict>
+</plist>

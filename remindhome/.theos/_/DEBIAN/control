@@ -1,0 +1,10 @@
+Package: com.macs.remindhome
+Name: RemindHome
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Add reminders to your home screen!
+Maintainer: Macs
+Author: Macs
+Section: Tweaks
+Version: 1.0-122+debug
+Installed-Size: 262

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Terms Of Use</string>
+			<key>footerText</key>
+			<string>Please read these terms of use before using PickPocket.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Furthermore, this defined you as a user (the user). This software was developed by Ziph0n (the author).</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>The program's original use is to do everything possible to avoid a theft. This may affect the privacy of individuals. The user is aware of this situation and must take all precautions in this regard.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>The user should not intervene himself to get his device back, it may be dangerous, but he should call the police, the authorities or to any competent person to do it.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Through options, the user must configure the software to stay within the laws of the country where it is used.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>The author can not be held responsible for the use made of this software by the user. The user undertakes to respect what is said above. The user will be solely responsible for using the software, whether in the context of the use of origin or not, unlimited responsibility and assume the consequences.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Terms Of Use</string>
+</dict>
+</plist>

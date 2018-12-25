@@ -1,0 +1,10 @@
+Package: com.auxilium.iffound
+Name: IfFound
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Macs
+Author: Macs
+Section: Tweaks
+Version: 0.0.1-5+debug
+Installed-Size: 117

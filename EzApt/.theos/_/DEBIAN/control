@@ -1,0 +1,9 @@
+Package: com.m4cs.aptget
+Name: EzAPT
+Architecture: iphoneos-arm
+Description: An apt-get update toggle for your CC.
+Author: M4cs
+Section: Control Center (Modules)
+Maintainer: M4cs
+Version: 0.0.1-2+debug
+Installed-Size: 132

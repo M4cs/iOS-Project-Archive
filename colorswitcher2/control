@@ -1,0 +1,9 @@
+Package: com.macs.colorswitcher
+Name: ColorSwitcher
+Depends: mobilesubstrate
+Version: 0.0.3
+Architecture: iphoneos-arm
+Description: Add any color to the App Switcher! Requires libcolorpicker!
+Maintainer: Macs (macs@gmail.com)
+Author: Macs (macs@gmail.com)
+Section: Tweaks

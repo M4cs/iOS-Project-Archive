@@ -1,0 +1,9 @@
+Package: com.auxiliumctfs.ctfflag2
+Name: CTF Flag 2
+Depends: mobilesubstrate
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: Ah... so you found it.
+Maintainer: Thanos
+Author: Thanos
+Section: Tweaks

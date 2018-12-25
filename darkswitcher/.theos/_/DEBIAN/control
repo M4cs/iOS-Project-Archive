@@ -1,0 +1,10 @@
+Package: com.auxilium.darkswitcher
+Name: DarkSwitcher Beta
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Customize your App Switcher background brightness!
+Maintainer: Auxilium (auxilium@gmail.com)
+Author: Tonyk7 and Macs
+Section: Tweaks
+Version: 0.0.1-1+debug
+Installed-Size: 246
